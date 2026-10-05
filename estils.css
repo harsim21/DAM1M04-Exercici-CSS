@@ -1,0 +1,75 @@
+/* Tipografía para todos los elementos */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del cuerpo */
+body {
+    background-color: #f2f2f2;
+    margin: 30px;
+}
+
+/* Título principal */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Subtítulos */
+h2 {
+    color: green;
+}
+
+/* Enlaces */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Enlace cuando pasamos el ratón */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Clase */
+.destacado {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* ID */
+#base {
+    background-color: lightblue;
+    padding: 15px;
+}
+
+/* Primer elemento de la lista */
+li:first-child {
+    color: green;
+}
+
+/* Último elemento de la lista */
+li:last-child {
+    color: red;
+}
+
+/* Jerarquía ID > elemento */
+#base > li {
+    font-weight: bold;
+}
+
+/* Pseudoelemento antes */
+h2::before {
+    content: "→ ";
+}
+
+/* Pseudoelemento después */
+h2::after {
+    content: " ←";
+}
+
+/* Imágenes */
+img {
+    border: 3px solid blue;
+}
